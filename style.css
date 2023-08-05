@@ -1,3 +1,40 @@
 body{
-    background: blue;
+    background-color: blueviolet;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+text-align: center;
+margin-top:20px;
+color:whitesmoke;
+font-size: 50px;
+margin-top: 20px;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: 400px;
+    width: 400px;
+}
+
+p{
+    color:aqua;
+    text-align: center;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#quoteDisplay{
+    color:azure;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    margin-bottom: auto;
+    font-weight: bolder;
+    color:azure;
 }
