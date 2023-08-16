@@ -1,0 +1,9 @@
+{
+    "hobbies" : [
+        {
+            "id":1,
+            "name" : "Video Games"
+        }
+    ],
+    "user":[]
+}

@@ -25,3 +25,20 @@ function generateQuote() {
 
 // Event listener for the button click
 document.getElementById('quoteGenerator').addEventListener('click', generateQuote);
+
+//CREATE AND APPEND A NEW ELEMENT BELOW
+
+//first create a variable for the node you want to add to
+const div1 = document.querySelector('#div1')
+console.log(div1)
+
+
+//create a variable that assigns the value of your new element
+const div2 = document.createElement("div");
+//Create the content for the newly created element of 'div'
+div2.textContent = ""
+//assign an id to newly created element
+div2.id = "fresh"
+//append the new element to the variable of the element you are appending to
+div1.appendChild(div2);
+console.log(div2)
